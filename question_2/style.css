@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.table{
+    height: 100vh;
+    padding: 50px;
+    row-gap: 50px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    margin: auto;
+    padding: 0;
+    column-gap: 50px;
+    justify-content: center;    
+}
+
+.cells{
+    position: relative;
+}
+
+.cell{
+    border: 1px solid black;
+    display: flex;
+    height: 100px;
+    width: 570px;
+    padding: 10px;
+}
+
+.tooltip{
+   background-color: rgb(54, 56, 56);
+   height: 30px;
+   width: 80px;
+   color:white;
+   position: absolute;
+   right:-20px ;
+   top:-20px ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* z-index: -1; */
+}
